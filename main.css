@@ -1,0 +1,9 @@
+header,
+nav,
+footer,
+section,
+article,
+div {
+    font-family: Georgia, serif;
+    box-sizing: border-box;
+}
