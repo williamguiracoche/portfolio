@@ -29,6 +29,7 @@ article {
     background-color: #bfd8d2;
     overflow: auto;
     min-width: 300px;
+    max-width: 500px;
 
 }
 
@@ -57,6 +58,8 @@ p {
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
+    width: 90%;
 }
 
 .project_pic {
