@@ -23,6 +23,14 @@ body {
   color: #df744b;
 }
 
+article {
+    clear: both;
+    margin: 10px;
+    background-color: #bfd8d2;
+    overflow: auto;
+    max-width: 500px;
+}
+
 h1,
 h3,
 h4,
@@ -46,7 +54,7 @@ p {
 }
 
 .projects {
-    background-color: #bfd8d2;
+
 }
 
 .project_pic {
