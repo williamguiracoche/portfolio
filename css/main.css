@@ -28,7 +28,7 @@ article {
     margin: 10px;
     background-color: #bfd8d2;
     overflow: auto;
-    max-width: 70%;
+    min-width: 300px;
 
 }
 
@@ -36,7 +36,8 @@ h1,
 h3,
 h4,
 h5 {
-  margin: 0;
+  margin: 10px;
+
 }
 
 h2{
@@ -60,8 +61,8 @@ p {
 
 .project_pic {
     float:left;
-    padding: 10px;
-    max-width: 100%;
+    padding: 5%;
+    width: 90%;
     max-height: 400px;
     height: auto;
 }
