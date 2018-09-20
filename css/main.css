@@ -29,6 +29,8 @@ header {
 article {
     clear: both;
     margin: 10px auto;
+    margin-right: 10px;
+    margin-left: 10px;
     background-color: #1a2930;
     overflow: auto;
     min-width: 300px;
@@ -80,7 +82,7 @@ p {
     margin: 10px;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:500px) {
     body,
     html {
       margin: 0;
