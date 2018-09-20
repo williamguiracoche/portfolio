@@ -15,18 +15,22 @@ html {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: #6b7a8f;
+  background-color: #c5c1c0;
 }
 
 body {
   font-family: Roboto;
-  color: #df744b;
+  color: #0a1612;
+}
+
+header {
 }
 
 article {
     clear: both;
     margin: 10px;
-    background-color: #bfd8d2;
+    background-color: #1a2930;
+    //#6b7a8f
     overflow: auto;
     min-width: 300px;
     max-width: 500px;
@@ -60,6 +64,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
+    color: white;
 }
 
 .project_pic {
