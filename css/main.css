@@ -51,6 +51,10 @@ h2{
     margin: 20px;
 }
 
+h3{
+    text-align: center;
+}
+
 main {
     width: 100%;
     margin-left: auto;
