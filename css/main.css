@@ -48,3 +48,11 @@ p {
 .projects {
     background-color: #bfd8d2;
 }
+
+.project_pic {
+    float:left;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 400px;
+    height: 100%;
+}
