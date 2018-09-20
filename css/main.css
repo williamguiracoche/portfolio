@@ -71,11 +71,40 @@ p {
 .project_pic {
     float:left;
     padding: 5%;
-    width: 90%;
+    min-width: 100px;
     max-height: 400px;
     height: auto;
 }
 
 .project_text{
     margin: 10px;
+}
+
+@media screen and (max-width:550px) {
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+
+    main,
+    header,
+    section,
+    h2 {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .project_pic{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        width: 75%;
+        height: auto;
+    }
 }
