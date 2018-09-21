@@ -72,6 +72,10 @@ p {
 
 }
 
+.logo {
+    height: 1em;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
