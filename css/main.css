@@ -74,6 +74,11 @@ p {
     margin: auto;
 }
 
+.project_text{
+    height: 100%;
+    padding: 10px;
+}
+
 .project_pic {
     float:left;
     padding: 3%;
@@ -132,29 +137,4 @@ p {
     .projects {
         width: 95%;
     }
-}
-
-@media screen and (min-width: 801px) and (max-width:1000px) {
-    body,
-    html {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-    }
-    article {
-        max-width: none;
-    }
-
-    .projects {
-        width: 95%;
-    }
-
-    .project_pic{
-        margin: 5% 3%;
-        position: relative;
-        display: block;
-    }
-
 }
