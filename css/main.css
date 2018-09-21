@@ -113,6 +113,11 @@ p {
         width: 95%;
     }
 
+    .project_text{
+        top: 0;
+        transform: translateY(0);
+    }
+
     .project_pic{
         float: none;
         display: block;
