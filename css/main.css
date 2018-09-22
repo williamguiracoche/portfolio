@@ -3,6 +3,10 @@
     --html-background-color: #b1eebb;
     --article-background-color: #1a2930;
     --h3-text-color: #f7ce3e;
+    --projects-text-color: #efe4b7;
+    //9adae9 blue
+    //efe4b7 tan
+    //bb7a5c brown
 }
 
 header,
@@ -86,7 +90,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: 95%;
-    color: white;
+    color: var(--projects-text-color);
     margin: auto;
     justify-content: center;
 }
