@@ -52,6 +52,11 @@ h5 {
 
 }
 
+h1 {
+    display: inline-block;
+    font-size: 3em;
+}
+
 h2{
     margin: 20px;
 }
@@ -73,8 +78,8 @@ p {
 }
 
 .logo {
-    display: inline-inline-block;
-    height: 1em;
+    display: inline-block;
+    height: 3em;
 }
 
 .projects {
