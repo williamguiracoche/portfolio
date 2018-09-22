@@ -1,6 +1,6 @@
 :root {
     --body-text-color: #0a1612;
-    --html-background-color: #c5c1c0;
+    --html-background-color: #b1eebb;
     --article-background-color: #1a2930;
     --h3-text-color: #f7ce3e;
 }
@@ -73,6 +73,7 @@ p {
 }
 
 .logo {
+    display: inline-inline-block;
     height: 1em;
 }
 
