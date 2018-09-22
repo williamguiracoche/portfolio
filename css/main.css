@@ -4,9 +4,6 @@
     --article-background-color: #1a2930;
     --h3-text-color: #f7ce3e;
     --projects-text-color: #efe4b7;
-    //9adae9 blue
-    //efe4b7 tan
-    //bb7a5c brown
 }
 
 header,
@@ -163,8 +160,14 @@ p {
         margin-left: auto;
 
     }
+    
     article{
         max-width: 45%;
+    }
+
+    .project_text{
+        top: 0;
+        transform: translateY(0);
     }
 }
 
